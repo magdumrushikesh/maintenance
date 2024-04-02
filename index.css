@@ -1,0 +1,168 @@
+
+/* Header */
+body { 
+    
+
+  
+}
+
+.main{
+    
+    background-color: #EEEEEE;
+  
+}
+
+.header i{
+    border-radius: 100px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #2EA095;
+    padding: 8px;
+    color: #FDFDFD;
+}
+.header button{
+    border: none;
+    cursor: pointer;
+    
+}
+.header{
+    display: flex;
+    align-content: flex-start;
+    gap: 4rem;
+    margin: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.header i:hover{
+    box-shadow: 
+    2px 0px 6px hsla(0.3, 0.3%, .3%, 0.3), 0 5px 15px hsla(0, 0%, 0%, 0.1) !important;;
+    border-radius: 50px;
+}
+
+
+
+
+/* Dashboard */
+
+.dashbord .dash_left i{
+    color: #FF4500;
+    font-size: 2rem;
+
+}
+.dashbord .dash_left span{
+    font-size: 2rem;  
+}
+.dashbord{
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 
+    2px 0px 6px hsla(0.3, 0.3%, .3%, 0.3), 0 5px 15px hsla(0, 0%, 0%, 0.1) !important;;
+    
+}
+.dashbord .dash_right button{
+    border: none;
+    background-color:  #FFFFFF;;
+}
+.dashbord .dash_right span {
+    font-size: 1rem;
+
+}
+.dashbord .dash_right i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.dashbord .dash_right i:hover{
+    box-shadow: 
+    2px 0px 6px hsla(0.3, 0.3%, .3%, 0.3), 0 5px 15px hsla(0, 0%, 0%, 0.1) !important;;
+    border-radius: 50px;
+}
+
+/* Pi chart */
+
+.pichart{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    gap: 0.5rem;
+    margin: 30px;
+
+   
+}
+.pichart.show {
+    display: block;
+    margin: 30px 0;
+}
+
+.pichart.show .card {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+.pichart.show .card.right {
+    margin-right: 0;
+}
+.card.right , .card.left{
+   
+}
+.canvasjs-chart-canvas{
+    border: 1px solid gray;
+    box-shadow: 
+    2px 0px 6px hsla(0.3, 0.3%, .3%, 0.3), 0 5px 15px hsla(0, 0%, 0%, 0.1) !important;;
+    border-radius: 10px;
+}
+
+
+
+
+/* for bar chart */
+#bargraph{
+    display: flex;
+    justify-content: center;
+    
+}
+#cardgraph{
+    /* border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 
+    2px 0px 6px hsla(0.3, 0.3%, .3%, 0.3), 0 5px 15px hsla(0, 0%, 0%, 0.1) !important;;
+    background-color: #FFFFFF;
+    padding: 20px; */
+    margin-left: 30px;
+    border-radius: 10px;
+    
+    background-color: #FFFFFF;
+    margin-right: 5px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+    .pichart{
+        display: grid;
+        grid-template-columns: auto ;
+       
+        gap: 0.5rem;
+        margin: 30px;
+    
+       
+    }
+  }
+  
+  .card-body{
+    padding: 0rem;
+  }
+  .nav{
+    margin: 20px;
+  }
+  .navbar.navbar-expand-lg.navbar-light.bg-light{
+    margin-top: 10px;
+  }
+
+  /* navbar */
+

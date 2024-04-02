@@ -1,0 +1,46 @@
+.pichart {
+    display: block;
+    margin: 30px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+.card.right {
+    margin-right: 0;
+}
+
+<a href="#" onclick="showDiv('one'); return false;">Show Chart 1</a>
+<a href="#" onclick="showDiv('two'); return false;">Show Chart 2</a>
+<a href="#" onclick="showDiv('three'); return false;">Show Chart 3</a>
+<a href="#" onclick="showDiv('four'); return false;">Show Chart 4</a>
+
+<div class="pichart" id="one" style="display: none;">
+    <div class="card left">
+        <div class="card-body">
+            Chart 1 Content
+        </div>
+    </div>
+    <div class="card right">
+        <div class="card-body">
+            Chart 2 Content
+        </div>
+    </div>
+</div>
+
+<div class="pichart" id="two" style="display: none;">
+    <div class="card left">
+        <div class="card-body">
+            Chart 3 Content
+        </div>
+    </div>
+    <div class="card right">
+        <div class="card-body">
+            Chart 4 Content
+        </div>
+    </div>
+</div>
